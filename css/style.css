@@ -4,6 +4,12 @@ body {
     color: #333333;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+a {
+    color: #d21034;
 }
 
 #bio-header {
@@ -11,20 +17,34 @@ body {
     font-size: 28px;
     color: #eee;
     background-color: #333333;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.container{
-
+.container {
+    width: 1536px;
+    margin: 0 auto;
 }
 
-#main-bio{
-
+#main-bio {
+    font-size: 24px;
+    float: left;
+    width: 70%;
 }
 
-#contact-info{
-
+#contact-info {
+    float: left;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#bio-image{
-
+#bio-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-right: 20px;
 }
